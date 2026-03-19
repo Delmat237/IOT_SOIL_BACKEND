@@ -18,7 +18,7 @@ app = FastAPI(
     version=settings.APP_VERSION,
     openapi_url=f"{settings.API_V1_PREFIX}/openapi.json",
     servers=[
-        {"url": "https://iotsoilbackend-production.up.railway.app", "description": "Production server"},
+        {"url": "https://resilient-vibrancy-production.up.railway.app", "description": "Production server"},
         {"url": "http://localhost:8000", "description": "Local development server"},
     ]
 )
